@@ -2,7 +2,7 @@
 
 ## Usage
 
-Clone this repo in the project folder initialize composer:
+Clone this repo and in the project folder initialize composer:
 
 ```
 composer install
@@ -13,7 +13,7 @@ Start the webserver on local environment:
 php -S localhost:8000 -t public
 ```
 
-To test the discounts added on a given order, Make a POST request to following url with an "order" parameter containing a json formatted order as givin in example.
+To test the discounts added on a given order, Make a POST request to following url with an "order" parameter containing a json formatted order as given in example.
 
 POST http://localhost:8000/discount/calculate
 
